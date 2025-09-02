@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Assembly Of The Saints Of God Ministry - A five-fold, international assembly of Christ."
+    />
+    <title>The Assembly Of The Saints Of God Ministry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="logo.jpg" alt="Ministry Logo" /></a>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <main class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h1 class="section-title">Contact Us</h1>
+          <p>
+            <strong>Address:</strong><br />5600 NorthWest Central Dr, Suite 100
+            A<br />Houston, TX 77092
+          </p>
+          <p>
+            <strong>Phone:</strong> <a href="tel:8326825572">(832)-682-5572</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@theassemblyofthesaintsofgodministry.com"
+              >info@theassemblyofthesaintsofgodministry.com</a
+            >
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13824.682!2d-95.472!3d29.837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c6f4f2b7e3b1%3A0x6e3f2e4c5e2b7e3b!2s5600%20NW%20Central%20Dr%2C%20Houston%2C%20TX%2077092!5e0!3m2!1sen!2sus!4v1690000000000"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="https://formspree.io/f/xovlyyao" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!-- Contact Info -->
+        <div class="footer-contact">
+          <a href="mailto:info@theassemblyofthesaintsofgodministry.com">
+            info@theassemblyofthesaintsofgodministry.com
+          </a>
+          <span>&bull;</span>
+          <a href="tel:832-682-5572">+1 (832)-682-5572</a>
+        </div>
+
+        <!-- Service Times -->
+        <div class="footer-service-times">
+          <p><strong>Sunday Service:</strong> 11:30 AM</p>
+          <p><strong>Thursday Bible Study:</strong> 7:30 PM</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-social">
+          <a
+            href="https://x.com/SaintsOfGodM"
+            target="_blank"
+            aria-label="Threads"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php/?id=100069898062188"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+
+        <p class="footer-copyright">
+          &copy; 2025 The Assembly Of The Saints Of God Ministry. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
